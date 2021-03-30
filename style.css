@@ -384,9 +384,9 @@ section .title::after{
 }
 .projects .carousel .card img {
     height: 150px;
-    width: 150px;
+    width: 200px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 10%;
     border: 5px solid crimson;
     transition: all 0.3s ease ;
 }
