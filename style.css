@@ -393,6 +393,13 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+.projects .carousel .card a{
+    color: white;
+}
+.projects .carousel .card a:hover{
+    color: #222;
+}
+
 .projects .carousel .card img {
     height: 150px;
     width: 200px;
