@@ -34,16 +34,16 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2",{
-        strings: ["Developer", "Creator"],
+        strings: ["Creator","Developer"],
         typeSpeed: 100,
         backSpeed: 60,
-        loop: true
+        loop: false
     });
 
     //Owl carsoul script
     $('.carousel').owlCarousel({
         margin: 20,
-        loop: true,
+        loop: false,
         autoplayTimeOut: 2000,
         autoplayPause: true,
         responsive: {

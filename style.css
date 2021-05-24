@@ -312,7 +312,11 @@ section .title::after{
     background: none;
 }
 
-
+.skills .skills-content .right .text{
+    font-weight: 25px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
 /* Skills images */
 
 
