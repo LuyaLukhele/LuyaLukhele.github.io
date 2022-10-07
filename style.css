@@ -196,7 +196,6 @@ section .title::after{
 }
 .about .about-content .left img{
     height: 400px;
-    width: 327px;
     object-fit: cover;
     border-radius: 10%;
     border: 5px solid crimson;
@@ -253,8 +252,8 @@ section .title::after{
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
-    cursor: pointer;
     transition: all 0.3s ease;
+    margin-bottom: 40px;
 }
 .services .serv-content .card:hover{
     background: crimson;
@@ -622,6 +621,9 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
+    .home{
+        background-size:auto;
+    }
 }
 
 @media (max-width: 690px){
@@ -640,6 +642,9 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
+    .home{
+        background-size:auto;
+    }
 }
 @media (max-width: 525px){
     .home .home-content .text-2{
@@ -648,4 +653,8 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
+    .home{
+        background-size:auto;
+    }
+
 }
