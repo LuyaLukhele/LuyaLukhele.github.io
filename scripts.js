@@ -36,7 +36,7 @@ $(document).ready(function(){
         strings: ["Engineer","Developer"],
         typeSpeed: 100,
         backSpeed: 60,
-        loop: true
+        loop: false
     });
 
     //Owl carsoul script
